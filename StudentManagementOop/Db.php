@@ -30,6 +30,6 @@ class DB
 
     public function submit_query($query)
     {
-        $this->connection->query($query);
+        return $this->connection->query($query);
     }
 }
