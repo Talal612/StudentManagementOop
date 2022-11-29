@@ -8,7 +8,7 @@ class Student
 
     public function __construct()
     {
-        $db = new DB();
+        $this->$db = new DB();
     }
 
 
