@@ -42,7 +42,7 @@ $student = new Student();
                     </div>
                     <div class="mb-3">
                         <label for="dob" class="form-label">DOB</label>
-                        <input type="text" class="form-control" id="dob" name="dob">
+                        <input type="date" class="form-control" id="dob" name="dob">
                     </div>
 
                     <div class="mb-3">
@@ -75,7 +75,7 @@ $student = new Student();
                     <thead>
                         <tr>
                             <th scope="col">#</th>
-                            <th scope="col">Full Name</th>
+                            <th scope="col">Name</th>
                             <th scope="col">DOB</th>
                             <th scope="col">Phone</th>
                             <th scope="col">Email</th>
